@@ -1,0 +1,59 @@
+.wrapper {
+	margin: 30 auto;
+	display:  flex;
+	flex-flow: column wrap;
+	align-items: center;
+}
+
+button {
+	margin: 20px 0;
+	border: 1px solid blue;
+	border-radius: 4px;
+	background-color: white;
+}
+
+button:hover {
+	background-color: #f0f0f0;
+}
+
+#sketchpad {
+	border:1px solid blue;
+	height: 580px;
+	width: 580px;
+	display: flex;
+}
+
+.column {
+	display: flex;
+	align-items: stretch;
+	flex-grow: 1;
+	flex-flow: column nowrap;
+}
+
+.sketchdiv {
+	align-items: stretch;
+	flex-grow: 1;
+}
+
+.on {
+	background-color: red;
+}
+
+.onpast {
+	background-color: orange;
+}
+
+p {
+	font-size: 0.75em;
+	text-align: center;
+	font-family: Arial;
+	color: black;
+}
+
+span {
+	border: 1px solid red;
+	text-align: center;
+	font-family: Arial;
+	color: red;
+	padding: 0 5px;
+}
